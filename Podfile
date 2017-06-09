@@ -21,7 +21,7 @@ platform :ios, '8.0'
 	pod 'Reachability'
 
 	pod 'JLRoutes'
-   	 pod 'IQKeyboardManagerSwift'
+#   	 pod 'IQKeyboardManagerSwift'
 
 #	pod 'SwiftyJSON'
 #	pod 'ObjectMapper'
@@ -43,7 +43,7 @@ platform :ios, '8.0'
 	pod 'DZNEmptyDataSet'
    	pod 'TZImagePickerController', :git => 'https://github.com/cxcxy/TZImagePickerController.git'
 
-	pod 'AVOSCloud'               # 数据存储、短信、云引擎调用等基础服务模块
+#	pod 'AVOSCloud'               # 数据存储、短信、云引擎调用等基础服务模块
 
 
 

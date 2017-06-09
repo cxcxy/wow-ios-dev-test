@@ -2,7 +2,7 @@
   "commitish" : "4.4.0",
   "iOS" : [
     {
-      "hash" : "76794cdd5139107e7ac5097a9c437ca8d5ba51e906a0e53a915baea82e100f5b",
+      "hash" : "154d41669bd5cfbc5afd7ad0f1c26c142013fb403814ef3f9f63b48cf6b280bf",
       "name" : "Alamofire"
     }
   ]

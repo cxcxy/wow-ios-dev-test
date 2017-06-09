@@ -20,7 +20,7 @@
 @import ObjectMapper;
 @import MJRefresh;
 @import DZNEmptyDataSet;
-
+@import IQKeyboardManagerSwift;
 @import EZSwiftExtensions;
 @import TZImagePickerController;
 //@import HidingNavigationBar;

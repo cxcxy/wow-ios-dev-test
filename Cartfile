@@ -7,3 +7,4 @@ github "Hearst-DD/ObjectMapper" ~> 2.2
 github "goktugyil/EZSwiftExtensions"
 github "Moya/Moya"
 github "RxSwiftCommunity/RxDataSources" ~> 1.0
+github "hackiftekhar/IQKeyboardManager"

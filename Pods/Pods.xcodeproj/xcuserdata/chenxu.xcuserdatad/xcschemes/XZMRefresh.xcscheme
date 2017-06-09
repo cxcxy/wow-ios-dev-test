@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1C46660200A33D8B82F4DCE2451977D4'
+               BlueprintIdentifier = '88B8D433D13A613C81388A51E8394F34'
                BlueprintName = 'XZMRefresh'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'XZMRefresh.framework'>
