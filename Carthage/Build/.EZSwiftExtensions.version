@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.9",
+  "iOS" : [
+    {
+      "hash" : "6d3f7cdfd6f2faedc7f398c8355f30f3d458857a996078b4bccc1876a547731e",
+      "name" : "EZSwiftExtensions"
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0386B61EEA5EC9007B799B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386A61EEA5EC9007B799B /* Alamofire.framework */; };
+		2D0386B71EEA5ECA007B799B /* EZSwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386A71EEA5EC9007B799B /* EZSwiftExtensions.framework */; };
+		2D0386B81EEA5ECA007B799B /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386A81EEA5EC9007B799B /* Kingfisher.framework */; };
+		2D0386B91EEA5ECA007B799B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386A91EEA5EC9007B799B /* Moya.framework */; };
+		2D0386BA1EEA5ECA007B799B /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386AA1EEA5EC9007B799B /* ObjectMapper.framework */; };
+		2D0386BB1EEA5ECA007B799B /* ReactiveMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386AB1EEA5EC9007B799B /* ReactiveMoya.framework */; };
+		2D0386BC1EEA5ECA007B799B /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386AC1EEA5EC9007B799B /* ReactiveSwift.framework */; };
+		2D0386BD1EEA5ECA007B799B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386AD1EEA5EC9007B799B /* Result.framework */; };
+		2D0386BE1EEA5ECA007B799B /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386AE1EEA5EC9007B799B /* RxBlocking.framework */; };
+		2D0386BF1EEA5ECA007B799B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386AF1EEA5EC9007B799B /* RxCocoa.framework */; };
+		2D0386C01EEA5ECA007B799B /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386B01EEA5EC9007B799B /* RxMoya.framework */; };
+		2D0386C11EEA5ECA007B799B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386B11EEA5EC9007B799B /* RxSwift.framework */; };
+		2D0386C21EEA5ECA007B799B /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386B21EEA5EC9007B799B /* RxTest.framework */; };
+		2D0386C31EEA5ECA007B799B /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386B31EEA5EC9007B799B /* SnapKit.framework */; };
+		2D0386C41EEA5ECA007B799B /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386B41EEA5EC9007B799B /* SwiftyJSON.framework */; };
+		2D0386C51EEA5ECA007B799B /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386B51EEA5EC9007B799B /* SwiftyUserDefaults.framework */; };
+		2D0386C81EEA6882007B799B /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0386C71EEA6882007B799B /* RxDataSources.framework */; };
+		2D85429E1ED67520002099BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85429D1ED67520002099BC /* AppDelegate.swift */; };
+		2D8542A01ED67520002099BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85429F1ED67520002099BC /* ViewController.swift */; };
+		2D8542A31ED67520002099BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8542A11ED67520002099BC /* Main.storyboard */; };
+		2D8542A51ED67520002099BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8542A41ED67520002099BC /* Assets.xcassets */; };
+		2D8542A81ED67520002099BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8542A61ED67520002099BC /* LaunchScreen.storyboard */; };
+		2D8542B31ED67520002099BC /* wow_ios_dev_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8542B21ED67520002099BC /* wow_ios_dev_testUITests.swift */; };
+		EEF7CECA2E79836750BF5256 /* Pods_wow_ios_dev_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACD5F329B6C784918D22FA1 /* Pods_wow_ios_dev_test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D8542AF1ED67520002099BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D8542921ED67520002099BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D8542991ED67520002099BC;
+			remoteInfo = "wow-ios-dev-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23804AD4DB65ED02D3C4F16C /* Pods-wow-ios-dev-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow-ios-dev-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-wow-ios-dev-test/Pods-wow-ios-dev-test.release.xcconfig"; sourceTree = "<group>"; };
+		2D0386A61EEA5EC9007B799B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		2D0386A71EEA5EC9007B799B /* EZSwiftExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EZSwiftExtensions.framework; path = Carthage/Build/iOS/EZSwiftExtensions.framework; sourceTree = "<group>"; };
+		2D0386A81EEA5EC9007B799B /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		2D0386A91EEA5EC9007B799B /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		2D0386AA1EEA5EC9007B799B /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		2D0386AB1EEA5EC9007B799B /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = Carthage/Build/iOS/ReactiveMoya.framework; sourceTree = "<group>"; };
+		2D0386AC1EEA5EC9007B799B /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		2D0386AD1EEA5EC9007B799B /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		2D0386AE1EEA5EC9007B799B /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		2D0386AF1EEA5EC9007B799B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		2D0386B01EEA5EC9007B799B /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		2D0386B11EEA5EC9007B799B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		2D0386B21EEA5EC9007B799B /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		2D0386B31EEA5EC9007B799B /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		2D0386B41EEA5EC9007B799B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		2D0386B51EEA5EC9007B799B /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = Carthage/Build/iOS/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
+		2D0386C71EEA6882007B799B /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		2D85429A1ED67520002099BC /* wow-ios-dev-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wow-ios-dev-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D85429D1ED67520002099BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D85429F1ED67520002099BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D8542A21ED67520002099BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D8542A41ED67520002099BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D8542A71ED67520002099BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D8542A91ED67520002099BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8542AE1ED67520002099BC /* wow-ios-dev-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wow-ios-dev-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8542B21ED67520002099BC /* wow_ios_dev_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wow_ios_dev_testUITests.swift; sourceTree = "<group>"; };
+		2D8542B41ED67520002099BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8542BD1ED677E9002099BC /* wow-ios-dev-test-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wow-ios-dev-test-Header.h"; sourceTree = "<group>"; };
+		62664EB0F8F9105FA2A95E9A /* Pods-wow-ios-dev-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow-ios-dev-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wow-ios-dev-test/Pods-wow-ios-dev-test.debug.xcconfig"; sourceTree = "<group>"; };
+		AACD5F329B6C784918D22FA1 /* Pods_wow_ios_dev_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wow_ios_dev_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D8542971ED67520002099BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF7CECA2E79836750BF5256 /* Pods_wow_ios_dev_test.framework in Frameworks */,
+				2D0386B61EEA5EC9007B799B /* Alamofire.framework in Frameworks */,
+				2D0386B71EEA5ECA007B799B /* EZSwiftExtensions.framework in Frameworks */,
+				2D0386B81EEA5ECA007B799B /* Kingfisher.framework in Frameworks */,
+				2D0386B91EEA5ECA007B799B /* Moya.framework in Frameworks */,
+				2D0386BA1EEA5ECA007B799B /* ObjectMapper.framework in Frameworks */,
+				2D0386BB1EEA5ECA007B799B /* ReactiveMoya.framework in Frameworks */,
+				2D0386BC1EEA5ECA007B799B /* ReactiveSwift.framework in Frameworks */,
+				2D0386BD1EEA5ECA007B799B /* Result.framework in Frameworks */,
+				2D0386BE1EEA5ECA007B799B /* RxBlocking.framework in Frameworks */,
+				2D0386BF1EEA5ECA007B799B /* RxCocoa.framework in Frameworks */,
+				2D0386C01EEA5ECA007B799B /* RxMoya.framework in Frameworks */,
+				2D0386C81EEA6882007B799B /* RxDataSources.framework in Frameworks */,
+				2D0386C11EEA5ECA007B799B /* RxSwift.framework in Frameworks */,
+				2D0386C21EEA5ECA007B799B /* RxTest.framework in Frameworks */,
+				2D0386C31EEA5ECA007B799B /* SnapKit.framework in Frameworks */,
+				2D0386C41EEA5ECA007B799B /* SwiftyJSON.framework in Frameworks */,
+				2D0386C51EEA5ECA007B799B /* SwiftyUserDefaults.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8542AB1ED67520002099BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23EC0458082786EF946A78BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62664EB0F8F9105FA2A95E9A /* Pods-wow-ios-dev-test.debug.xcconfig */,
+				23804AD4DB65ED02D3C4F16C /* Pods-wow-ios-dev-test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D8542911ED67520002099BC = {
+			isa = PBXGroup;
+			children = (
+				2D85429C1ED67520002099BC /* wow-ios-dev-test */,
+				2D8542B11ED67520002099BC /* wow-ios-dev-testUITests */,
+				2D85429B1ED67520002099BC /* Products */,
+				23EC0458082786EF946A78BD /* Pods */,
+				C8BD90F37084E275DDF4F714 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D85429B1ED67520002099BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D85429A1ED67520002099BC /* wow-ios-dev-test.app */,
+				2D8542AE1ED67520002099BC /* wow-ios-dev-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D85429C1ED67520002099BC /* wow-ios-dev-test */ = {
+			isa = PBXGroup;
+			children = (
+				2D85429D1ED67520002099BC /* AppDelegate.swift */,
+				2D85429F1ED67520002099BC /* ViewController.swift */,
+				2D8542BD1ED677E9002099BC /* wow-ios-dev-test-Header.h */,
+				2D8542A11ED67520002099BC /* Main.storyboard */,
+				2D8542A41ED67520002099BC /* Assets.xcassets */,
+				2D8542A61ED67520002099BC /* LaunchScreen.storyboard */,
+				2D8542A91ED67520002099BC /* Info.plist */,
+			);
+			path = "wow-ios-dev-test";
+			sourceTree = "<group>";
+		};
+		2D8542B11ED67520002099BC /* wow-ios-dev-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D8542B21ED67520002099BC /* wow_ios_dev_testUITests.swift */,
+				2D8542B41ED67520002099BC /* Info.plist */,
+			);
+			path = "wow-ios-dev-testUITests";
+			sourceTree = "<group>";
+		};
+		C8BD90F37084E275DDF4F714 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0386C71EEA6882007B799B /* RxDataSources.framework */,
+				2D0386A61EEA5EC9007B799B /* Alamofire.framework */,
+				2D0386A71EEA5EC9007B799B /* EZSwiftExtensions.framework */,
+				2D0386A81EEA5EC9007B799B /* Kingfisher.framework */,
+				2D0386A91EEA5EC9007B799B /* Moya.framework */,
+				2D0386AA1EEA5EC9007B799B /* ObjectMapper.framework */,
+				2D0386AB1EEA5EC9007B799B /* ReactiveMoya.framework */,
+				2D0386AC1EEA5EC9007B799B /* ReactiveSwift.framework */,
+				2D0386AD1EEA5EC9007B799B /* Result.framework */,
+				2D0386AE1EEA5EC9007B799B /* RxBlocking.framework */,
+				2D0386AF1EEA5EC9007B799B /* RxCocoa.framework */,
+				2D0386B01EEA5EC9007B799B /* RxMoya.framework */,
+				2D0386B11EEA5EC9007B799B /* RxSwift.framework */,
+				2D0386B21EEA5EC9007B799B /* RxTest.framework */,
+				2D0386B31EEA5EC9007B799B /* SnapKit.framework */,
+				2D0386B41EEA5EC9007B799B /* SwiftyJSON.framework */,
+				2D0386B51EEA5EC9007B799B /* SwiftyUserDefaults.framework */,
+				AACD5F329B6C784918D22FA1 /* Pods_wow_ios_dev_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D8542991ED67520002099BC /* wow-ios-dev-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8542B71ED67520002099BC /* Build configuration list for PBXNativeTarget "wow-ios-dev-test" */;
+			buildPhases = (
+				B0382AD1A961461CF8410540 /* [CP] Check Pods Manifest.lock */,
+				2D8542961ED67520002099BC /* Sources */,
+				2D8542971ED67520002099BC /* Frameworks */,
+				2D8542981ED67520002099BC /* Resources */,
+				C1A09ACA51822019A2D1FC8A /* [CP] Embed Pods Frameworks */,
+				06B35D5F8A53355643BC06D7 /* [CP] Copy Pods Resources */,
+				2D0386C61EEA6074007B799B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wow-ios-dev-test";
+			productName = "wow-ios-dev-test";
+			productReference = 2D85429A1ED67520002099BC /* wow-ios-dev-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D8542AD1ED67520002099BC /* wow-ios-dev-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8542BA1ED67520002099BC /* Build configuration list for PBXNativeTarget "wow-ios-dev-testUITests" */;
+			buildPhases = (
+				2D8542AA1ED67520002099BC /* Sources */,
+				2D8542AB1ED67520002099BC /* Frameworks */,
+				2D8542AC1ED67520002099BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D8542B01ED67520002099BC /* PBXTargetDependency */,
+			);
+			name = "wow-ios-dev-testUITests";
+			productName = "wow-ios-dev-testUITests";
+			productReference = 2D8542AE1ED67520002099BC /* wow-ios-dev-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D8542921ED67520002099BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈旭";
+				TargetAttributes = {
+					2D8542991ED67520002099BC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					2D8542AD1ED67520002099BC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D8542991ED67520002099BC;
+					};
+				};
+			};
+			buildConfigurationList = 2D8542951ED67520002099BC /* Build configuration list for PBXProject "wow-ios-dev-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D8542911ED67520002099BC;
+			productRefGroup = 2D85429B1ED67520002099BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D8542991ED67520002099BC /* wow-ios-dev-test */,
+				2D8542AD1ED67520002099BC /* wow-ios-dev-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D8542981ED67520002099BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8542A81ED67520002099BC /* LaunchScreen.storyboard in Resources */,
+				2D8542A51ED67520002099BC /* Assets.xcassets in Resources */,
+				2D8542A31ED67520002099BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8542AC1ED67520002099BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B35D5F8A53355643BC06D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wow-ios-dev-test/Pods-wow-ios-dev-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D0386C61EEA6074007B799B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EZSwiftExtensions.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyUserDefaults.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		B0382AD1A961461CF8410540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A09ACA51822019A2D1FC8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wow-ios-dev-test/Pods-wow-ios-dev-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D8542961ED67520002099BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8542A01ED67520002099BC /* ViewController.swift in Sources */,
+				2D85429E1ED67520002099BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8542AA1ED67520002099BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8542B31ED67520002099BC /* wow_ios_dev_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D8542B01ED67520002099BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D8542991ED67520002099BC /* wow-ios-dev-test */;
+			targetProxy = 2D8542AF1ED67520002099BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D8542A11ED67520002099BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D8542A21ED67520002099BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D8542A61ED67520002099BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D8542A71ED67520002099BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D8542B51ED67520002099BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D8542B61ED67520002099BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D8542B81ED67520002099BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62664EB0F8F9105FA2A95E9A /* Pods-wow-ios-dev-test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "wow-ios-dev-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOW.wow-ios-dev-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chenxu/Desktop/wow-ios-dev-test/wow-ios-dev-test/wow-ios-dev-test-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D8542B91ED67520002099BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23804AD4DB65ED02D3C4F16C /* Pods-wow-ios-dev-test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "wow-ios-dev-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOW.wow-ios-dev-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chenxu/Desktop/wow-ios-dev-test/wow-ios-dev-test/wow-ios-dev-test-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2D8542BB1ED67520002099BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "wow-ios-dev-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOW.wow-ios-dev-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "wow-ios-dev-test";
+			};
+			name = Debug;
+		};
+		2D8542BC1ED67520002099BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "wow-ios-dev-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOW.wow-ios-dev-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "wow-ios-dev-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8542951ED67520002099BC /* Build configuration list for PBXProject "wow-ios-dev-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8542B51ED67520002099BC /* Debug */,
+				2D8542B61ED67520002099BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8542B71ED67520002099BC /* Build configuration list for PBXNativeTarget "wow-ios-dev-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8542B81ED67520002099BC /* Debug */,
+				2D8542B91ED67520002099BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8542BA1ED67520002099BC /* Build configuration list for PBXNativeTarget "wow-ios-dev-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8542BB1ED67520002099BC /* Debug */,
+				2D8542BC1ED67520002099BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D8542921ED67520002099BC /* Project object */;
+}

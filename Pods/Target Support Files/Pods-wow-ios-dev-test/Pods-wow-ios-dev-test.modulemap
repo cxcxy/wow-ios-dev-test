@@ -1,0 +1,6 @@
+framework module Pods_wow_ios_dev_test {
+  umbrella header "Pods-wow-ios-dev-test-umbrella.h"
+
+  export *
+  module * { export * }
+}
